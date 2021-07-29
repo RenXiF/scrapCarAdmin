@@ -1,0 +1,59 @@
+/* 栅格布局 */
+.flex {
+	display: flex !important;
+	/* // width: 750upx; */
+}
+.flex_rows {
+	display: flex;
+	flex-direction: row !important;
+}
+.flex_row_reverse {
+	display: flex;
+	flex-direction: row-reverse !important;
+}
+.flex_columns {
+	display: flex;
+	flex-direction: column !important;
+}
+.flex_wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+.flex_nowrap {
+	display: flex;
+	flex-wrap: nowrap !important;
+}
+.flex_between {
+	display: flex;
+	justify-content: space-between !important;
+}
+.flex_around {
+	display: flex;
+	justify-content: space-around !important;
+}
+.flex_center {
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between !important; */
+}
+.flex_align_start {
+	display: flex;
+	align-items: flex-start;
+	/* justify-content: space-between !important; */
+}
+.flex_jufy_center{
+	display: flex;
+	align-items: center;
+	justify-content: center !important;
+}
+/* 文本溢出隐藏 */
+.ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.boder {
+	border-width: 1upx;
+	border-style: solid;
+	border-color: crimson;
+}
